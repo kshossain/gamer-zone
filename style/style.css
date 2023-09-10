@@ -233,7 +233,7 @@
 .play-content{
     width: 40%;
     text-align: right;
-    padding-top: 170px;
+    padding: 170px 120px 0 0;
 }
 .play-content h2{
     font-size: 2.6rem;
@@ -249,15 +249,18 @@
     line-height: 30px;
     margin-top: 15px;
 }
-
+.instant-pic{
+    position: relative;
+}
 .top-pic {
     height: 34rem;
+    margin-left: 120px;
 }
 .bottom-pic{
+    position: absolute;
     height: 18rem;
-    position: relative;
-    top: 4rem;
-    left: 9rem;
+    top: 20rem;
+    right: 25rem;
 }
 
 
@@ -365,6 +368,7 @@
     .online-videos{
         height: fit-content;
         width: 18rem;
+        margin: 0 auto;
     }
     .online-title{
         font-size: 1.3rem;
@@ -387,6 +391,38 @@
         font-size: .5rem;
         margin-top: 0;
     }
+    .instant-play{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .play-content {
+        width: fit-content;
+        text-align: center;
+        padding: 0;
+    }.play-content h2 {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+    .play-content p {
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .top-pic {
+        height: 15rem;
+        width: 15rem;
+        margin-left: 15px;
+    }
+    .bottom-pic{
+        position: absolute;
+        height: 8rem;
+        width: 7rem;
+        top: 8rem;
+        right: 11rem;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
@@ -493,5 +529,33 @@
         font-size: 1rem;
         margin-top: 0;
     }
+    .instant-play {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-content {
+        width: fit-content;
+        text-align: center;
+        padding: 0;
+    }
 
+    .play-content h2 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+    .play-content p {
+        margin-bottom: 30px;
+    }
+    .top-pic {
+        height: 28rem;
+        width: 28rem;
+        margin-left: 40px;
+    }
+    .bottom-pic {
+        height: 14rem;
+        top: 16rem;
+        right: 20rem;
+    }
 }
