@@ -225,42 +225,42 @@
 
 /* instant play sections styles */
 .instant-play{
-    height: 37.5rem;
+    height: 31.5rem;
     display: flex;
-    margin: 50px auto;
 }
 
 .play-content{
     width: 40%;
     text-align: right;
-    padding: 170px 120px 0 0;
+    padding: 140px 80px 0 0;
 }
 .play-content h2{
-    font-size: 2.6rem;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
 }
 .i-play{
     color: #F948B2;
 }
 .play-content p{
+    font-size: .8rem;
     color: #534C64;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
     margin-top: 15px;
 }
 .instant-pic{
     position: relative;
 }
 .top-pic {
-    height: 34rem;
-    margin-left: 120px;
+    height: 28rem;
+    padding-left: 60px;
 }
 .bottom-pic{
     position: absolute;
-    height: 18rem;
-    top: 20rem;
-    right: 25rem;
+    height: 15rem;
+    top: 16rem;
+    right: 18rem;
 }
 
 
