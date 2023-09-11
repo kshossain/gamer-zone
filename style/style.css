@@ -18,6 +18,7 @@
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .logo img{
     height: 1.65rem;
@@ -296,6 +297,43 @@
     color: #FF42A5;
     border-color: #FF42A5;
 }
+
+/* footer styles */
+.footer{
+    background-color: #0B0223;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+}
+.ex-text{
+    color: #fff;
+}
+.footer-text{
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.footer-text > span, .footer-policy > span{
+    margin: 0 18px;
+}
+.footer-icon {
+    margin: 60px auto;
+}
+.footer-icon > a{
+    margin: 0 15px;
+}
+.footer-policy{
+    color: #ffffff99;
+    font-size: .6rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.copy-right{
+    color: #ffffff99;
+    font-size: .6rem;
+    font-weight: 500;
+}
 /* Responsiveness */
 
 @media screen and (max-width:576px) {
@@ -458,6 +496,7 @@
         grid-template-columns: repeat(3, auto);
         column-gap: 5px;
         row-gap: 10px;
+        padding: 10px 0;
     }
     .game-option {
         width: 93px;
@@ -470,6 +509,48 @@
     }
     .game-option>img {
         height: 20px;
+    }
+    .footer{
+        padding: 60px 80px 20px 80px;
+    }
+    .footer-text {
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        row-gap: 15px;
+        justify-content: center;
+        font-size: .45rem;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .footer-text>span,
+    .footer-policy>span {
+        margin: 0;
+    }
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+        row-gap: 15px;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .footer-icon>a {
+        margin: 0;
+    }
+    .fa-2x{
+        font-size: 1.2rem;
+    }
+    .footer-policy {
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        row-gap: 15px;
+        justify-content: center;
+        font-size: .4rem;
+        margin-bottom: 20px;
+    }
+
+    .copy-right {
+        font-size: .4rem;
     }
 }
 
@@ -605,11 +686,11 @@
         right: 20rem;
     }
     .game-types {
-    height: fit-content;
+        height: fit-content;
     }
     .different-games {
-    grid-template-columns: repeat(3, auto);
-    
+        grid-template-columns: repeat(3, auto);
+        padding: 15px 0;
     }
     .game-option {
         width: 160px;
