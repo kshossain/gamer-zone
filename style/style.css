@@ -214,6 +214,7 @@
 .game-poster:hover .btn-overlay{
     opacity: 1;
     background-color: rgba(0, 0, 0, .6);
+    cursor: pointer;
 }
 .game-name{
     color: #534C64;
@@ -296,6 +297,7 @@
 .game-option:hover {
     color: #FF42A5;
     border-color: #FF42A5;
+    cursor: pointer;
 }
 
 /* footer styles */
